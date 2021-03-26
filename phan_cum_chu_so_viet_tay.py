@@ -14,7 +14,7 @@ from display_network import * # Để hiện thị nhiều bức ảnh các ch�
 
 # kmeans = KMeans(n_clusters=K).fit(X)
 # pred_label = kmeans.predict(X)
-
+np.random.seed(18)
 mndata = MNIST('D:/Machine Learning_Deep Learning/Day2/data/')
 mndata.load_testing()
 X = mndata.test_images
