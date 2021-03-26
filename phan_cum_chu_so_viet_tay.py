@@ -8,7 +8,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import normalize
 from display_network import * # Để hiện thị nhiều bức ảnh các chữ số cùng một lúc (hàm tự viết)
 
-# mndata = 'D:/Machine Learning_Deep Learning/Day2/data/'
+# mndata = 'D:/Machine Learning_Deep Learning/Day3_KMeansClustering/data/'
 # mndata.load_testing()
 # X = mndata.test_images
 
